@@ -170,76 +170,76 @@ btn1.addEventListener("click", function() {
 btn2.addEventListener("click", function() {
   textbox.value = "(business website) E-com site enquary";
   alertSound.play();
-  alert("lets build your business togather.\nwrite your name and email help me reach you.")
+  alert("Lets build your business togather.\nwrite your name and email help me reach you.")
 
 });
 btn3.addEventListener("click", function() {
   textbox.value = "(business website) brochure site enquary";
   alertSound.play();
-  alert("great decision just need your name and email to reach you\nso write your name and email help me reach you.")
+  alert("Great decision just need your name and email to reach you\nso write your name and email help me reach you.")
 
 
 });
 btn4.addEventListener("click", function() {
   textbox.value = "(business website) forum site enquary";
   alertSound.play();
-  alert("great idea lets build the next 'reddit' togather.\nwrite your name and email help me reach you.")
+  alert("Great idea lets build the next 'reddit' togather.\nwrite your name and email help me reach you.")
 
 
 });
 btn5.addEventListener("click", function() {
   textbox.value = "(educational website) brochure site enquary";
   alertSound.play();
-  alert("great decision lets make your social presence worldwide.\nwrite your name and email help me reach you.")
+  alert("Great decision lets make your social presence worldwide.\nwrite your name and email help me reach you.")
 
 
 });
 btn6.addEventListener("click", function() {
   textbox.value = "(educational website) e-platform site enquary";
   alertSound.play();
-  alert("amazing idea lets get the job done.\nwrite your name and email help me reach you.")
+  alert("Amazing idea lets get the job done.\nwrite your name and email help me reach you.")
 
 
 });
 btn7.addEventListener("click", function() {
   textbox.value = "(educational website) non-profit site enquary";
   alertSound.play();
-  alert("amazing idea lets work for it.\nwrite your name and email help me reach you.")
+  alert("Amazing idea lets work for it.\nwrite your name and email help me reach you.")
 
 
 });
 btn8.addEventListener("click", function() {
   textbox.value = "(news website)  news site enquary";
   alertSound.play();
-  alert("lets build the biggest news portal togather.\nwrite your name and email help me reach you.")
+  alert("Lets build the biggest news portal togather.\nwrite your name and email help me reach you.")
 
 
 });
 btn9.addEventListener("click", function() {
   textbox.value = "(news website)  blog page enquary";
   alertSound.play();
-  alert("amazing idea lets do it.\nwrite your name and email help me reach you.")
+  alert("Amazing idea lets do it.\nwrite your name and email help me reach you.")
 
 
 });
 btn11.addEventListener("click", function() {
   textbox.value = "(hire mail) hire button";
   alertSound.play();
-  alert("want to work togather ??\ntype your name and email help me reach you.")
+  alert("Want to work togather ??\ntype your name and email help me reach you.")
 
 });
 
 // Disable right-click context menu
 document.addEventListener('contextmenu', function(event) {
   event.preventDefault();
-  alert('copy/paste\n is not allowed');
+  alert('');
 },);
 
 // Disable keyboard shortcuts for copy (Ctrl+C, Command+C)
 document.addEventListener('keydown', function(event) {
   if (event.ctrlKey && (event.key === 'c' || event.key === 'C')) {
       event.preventDefault();
-      alert('copy/paste\n is not allowed');
+      alert('');
   }
 });
 
@@ -248,7 +248,7 @@ document.addEventListener('keydown', function(event) {
   if ((event.altKey && event.key === 'PrintScreen') || 
       (event.metaKey && (event.shiftKey && (event.key === '3' || event.key === '4')))) {
       event.preventDefault();
-      alert('taking screenshot??\n its not allowed');
+      alert('');
   }
 });
 
