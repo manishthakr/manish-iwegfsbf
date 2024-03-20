@@ -232,14 +232,14 @@ btn11.addEventListener("click", function() {
 // Disable right-click context menu
 document.addEventListener('contextmenu', function(event) {
   event.preventDefault();
-  alert('');
+  // alert('');
 },);
 
 // Disable keyboard shortcuts for copy (Ctrl+C, Command+C)
 document.addEventListener('keydown', function(event) {
   if (event.ctrlKey && (event.key === 'c' || event.key === 'C')) {
       event.preventDefault();
-      alert('');
+      // alert('');
   }
 });
 
@@ -248,7 +248,7 @@ document.addEventListener('keydown', function(event) {
   if ((event.altKey && event.key === 'PrintScreen') || 
       (event.metaKey && (event.shiftKey && (event.key === '3' || event.key === '4')))) {
       event.preventDefault();
-      alert('');
+      // alert('');
   }
 });
 
@@ -273,3 +273,20 @@ document.addEventListener('keydown', function(event) {
         var loading = document.getElementById('loading');
         loading.style.display = 'none';
     });
+
+
+// Assuming you have a form with an ID "myForm"
+const myForm = document.getElementById("myForm");
+
+// Add an event listener to the form submission
+myForm.addEventListener("submit", (event) => {
+    event.preventDefault(); // Prevent the default form submission behavior
+
+    // Show a success message (you can customize this)
+    alert("success!");
+
+    // Optionally, you can perform additional actions here (e.g., send data to your server)
+
+    // If you want to prevent the form from actually submitting, you can omit the following line
+    myForm.submit();
+});
