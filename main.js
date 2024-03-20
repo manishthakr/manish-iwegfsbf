@@ -176,21 +176,21 @@ btn2.addEventListener("click", function() {
 btn3.addEventListener("click", function() {
   textbox.value = "(business website) brochure site enquary";
   alertSound.play();
-  alert("grate decision just need your name and email to reach you\nso write your name and email help me reach you.")
+  alert("great decision just need your name and email to reach you\nso write your name and email help me reach you.")
 
 
 });
 btn4.addEventListener("click", function() {
   textbox.value = "(business website) forum site enquary";
   alertSound.play();
-  alert("grate idea lets build the next 'reddit' togather.\nwrite your name and email help me reach you.")
+  alert("great idea lets build the next 'reddit' togather.\nwrite your name and email help me reach you.")
 
 
 });
 btn5.addEventListener("click", function() {
   textbox.value = "(educational website) brochure site enquary";
   alertSound.play();
-  alert("grate decision lets make your social presence worldwide.\nwrite your name and email help me reach you.")
+  alert("great decision lets make your social presence worldwide.\nwrite your name and email help me reach you.")
 
 
 });
