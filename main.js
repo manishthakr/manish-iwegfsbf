@@ -251,17 +251,7 @@ document.addEventListener('keydown', function(event) {
       // alert('');
   }
 });
-
-
-
-
-
-
-
-
-
-
-      var backgroundMusic = document.getElementById("backgroundMusic");
+    var backgroundMusic = document.getElementById("backgroundMusic");
 
       window.onscroll = function() {
           var scrollIntensity = window.scrollY / (document.body.scrollHeight - window.innerHeight);
@@ -274,19 +264,9 @@ document.addEventListener('keydown', function(event) {
         loading.style.display = 'none';
     });
 
-
-// Assuming you have a form with an ID "myForm"
 const myForm = document.getElementById("myForm");
-
-// Add an event listener to the form submission
 myForm.addEventListener("submit", (event) => {
-    event.preventDefault(); // Prevent the default form submission behavior
-
-    // Show a success message (you can customize this)
+    event.preventDefault();
     alert("success!");
-
-    // Optionally, you can perform additional actions here (e.g., send data to your server)
-
-    // If you want to prevent the form from actually submitting, you can omit the following line
     myForm.submit();
 });
