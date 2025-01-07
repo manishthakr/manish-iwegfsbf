@@ -159,7 +159,6 @@ var btn6 = document.getElementById("prd5");
 var btn7 = document.getElementById("prd6");
 var btn8 = document.getElementById("prd7");
 var btn9 = document.getElementById("prd8");
-var btn11 = document.getElementById("hirebtn");
 var textbox = document.getElementById("textbox");
 
 // Add a click event listener to the button
@@ -220,12 +219,6 @@ btn9.addEventListener("click", function() {
   alertSound.play();
   alert("Amazing idea lets do it.\nwrite your name and email help me reach you.")
 
-
-});
-btn11.addEventListener("click", function() {
-  textbox.value = "(hire mail) hire button";
-  alertSound.play();
-  alert("Want to work togather ??\ntype your name and email help me reach you.")
 
 });
 
